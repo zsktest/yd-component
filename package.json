@@ -1,0 +1,28 @@
+{
+  "name": "yd-component",
+  "version": "1.0.8",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.2.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^3.0.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.44.0"
+  }
+}
