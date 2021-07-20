@@ -1,8 +1,6 @@
-import * as React from "react";
+/// <reference types="react" />
 export interface ZskProps {
     compiler: string;
     framework: string;
 }
-export declare class Table extends React.Component<ZskProps, {}> {
-    render(): JSX.Element;
-}
+export declare const Table: (props: ZskProps) => JSX.Element;

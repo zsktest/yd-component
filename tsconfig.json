@@ -12,5 +12,8 @@
   },
   "include": [
       "./src/**/*"
+  ],
+  "exclude": [
+    "./lib/**/*", "node_modules","lib","./lib"
   ]
 }

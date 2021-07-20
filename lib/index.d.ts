@@ -1,3 +1,4 @@
 import { Hello } from "./Loading";
 import { Table } from "./Table";
-export { Hello, Table };
+import { DepartmentTree } from "./DepartmentTree";
+export { Hello, Table, DepartmentTree };
